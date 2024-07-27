@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgoldenrodyellow;
+
+}
+.container{
+  box-shadow:  0 0 10px;
+  background-color: dodgerblue;
+  border-radius: 20px;
+  width: 400px;
+  height: 300px;
+}
+input{
+  width: 80%;
+  height: 35px;
+  margin: auto;
+  margin-left: 10%;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: 0;
+  outline: 0;
+  padding: 10px;
+}
+select{
+  width: 30%;
+  outline: none;
+  border: none;
+  height: 30px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  text-align: center;
+  overflow: hidden;
+}
+.mt{
+  margin-top: 15%;
+}
+.ml{
+  margin-left: 15%;
+}
+#btn{
+  height: 35px;
+  border: 0;
+  outline: 0;
+  width: 80%;
+  margin: auto;
+  margin-left: 10%;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: rgba(4, 50, 202, 0.766);
+  color: white;
+}
+#toCurrancyDisplay{
+  background-color: white;
+  color: black;
+}
